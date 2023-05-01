@@ -1,1 +1,1 @@
-add_executable(add add.cpp add.hpp)
+add_library(add add.cpp add.hpp)

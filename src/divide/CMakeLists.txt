@@ -1,1 +1,1 @@
-add_executable(divide divide.cpp divide.hpp)
+add_library(divide divide.cpp divide.hpp)
