@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(libs_xampl)
+project(libs_example)
 
 
 # target_link_directories(add PRIVATE ${CMAKE_SOURCE_DIR}/src/add)
@@ -9,4 +9,6 @@ project(libs_xampl)
 # include_directories(${CMAKE_SOURCE_DIR}/src/divide)
 
 add_subdirectory(src)
+
+install(TARGETS libs_example DESTINATION bin)
 

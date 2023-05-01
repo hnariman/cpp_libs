@@ -1,12 +1,21 @@
 # Libs & Project Structure in CPP
 
-## How to build:
+## Build:
 
-Project is being build with help of CMake,
-to build binaries please simply run commands:
+Project is built with CMake,
+to build simply run :
 
 ```bash
 cmake -Bbuild -S . && cmake --build build
+
+```
+
+## Install:
+
+installation is made with CMake for versions 3.15+:
+
+```bash
+cmake --install
 
 ```
 
@@ -21,3 +30,7 @@ Trying to implement what is given on
 [stackoverflow article](https://stackoverflow.com/questions/13703647/how-to-properly-add-include-directories-with-cmake)
 
 [Nice Readme on GitLab](https://cliutils.gitlab.io/modern-cmake/)
+
+```
+
+```
