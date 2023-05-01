@@ -1,6 +1,6 @@
 #include "divide.hpp"
 
-int divide(int a, int b){
-  return a / b;
+double divide(int a, int b){
+  return static_cast<double>(a)/ static_cast<double>(b);
 }
 

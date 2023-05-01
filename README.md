@@ -10,8 +10,11 @@ cmake -Bbuild -S . && cmake --build build
 
 ```
 
+## Challenge:
+
+-   import headers without directory -> "add.hpp" instead of "add/add.hpp"
 
 ## References:
 
 Trying to implement what is given on
-[ stackoverflow article ]( https://stackoverflow.com/questions/13703647/how-to-properly-add-include-directories-with-cmake )
+[ stackoverflow article ](https://stackoverflow.com/questions/13703647/how-to-properly-add-include-directories-with-cmake)
